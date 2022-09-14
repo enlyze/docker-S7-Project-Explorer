@@ -16,7 +16,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: s7-project-explorer-build-environment
+        image: windows-build-environment
         registry: ghcr.io
         addLatest: true
         username: ${{ github.actor }}
