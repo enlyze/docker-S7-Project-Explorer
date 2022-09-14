@@ -16,7 +16,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: ghcr.io/enlyze/S7-Project-Explorer-Build-Environment
+        image: ghcr.io/enlyze/s7-project-explorer-build-environment
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
