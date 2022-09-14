@@ -18,5 +18,6 @@ jobs:
       with:
         image: ghcr.io/enlyze/s7-project-explorer-build-environment
         registry: ghcr.io
+        addLatest: true
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
